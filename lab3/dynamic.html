@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <title>Dynamic Values</title>
+    <style>
+        body {
+            background-color: yellow;
+            text-align: center;
+        }
+    </style>
+    <script type="text/javascript" src="dynamic.js">
+    </script>
+</head>
+
+<body>
+    <form action="">
+        <br style=" font-weight: bold "> <span style="font-style: bold ;text-decoration: underline; font-size: 40px;font-style: oblique;color:burlywood;"><h1> Customer Information</h1> 
+</span><br><br><br><br>
+        <label>Name: <input type="text " onmouseover="messages(0) " onmouseout= "messages(4) " /> </label><br><br><br><br>
+        <label>Email:<input type="text" onmouseover= "messages(1)" onmouseout= "messages(4)" />
+        </label><br><br><br><br>
+        <span style="font-style:italic;color: blueviolet;font-style: inherit;">
+To create an account, provide the following information: </span><br><br><br><br>
+        <label>User ID: <input type="text" onmouseover="messages(2)" onmouseout="messages(4)" /> </label> <br><br><br>
+        <label>Password:<input type="text" onmouseover="messages(3)" onmouseout= "messages(4)" /> </label><br><br><br>
+        <textarea id="adviceBox" rows="4" cols="50" style="position:absolute; left:950px; top: 322px;color:black;background-color: aqua;">
+This box provides advice on filling out the form on this page. Put the mouse cursor over any input field to get advice.
+</textarea><br>
+        <p>
+            <input type="submit" value="Submit" /> <input type="reset" value="Reset"> </p>
+    </form>
+</body>
+
+</html>
