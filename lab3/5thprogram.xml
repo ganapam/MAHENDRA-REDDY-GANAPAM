@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="xmll.css"?>
+<Gitam>
+<students><br>
+<usn>IRN10cs090</usn>     </br>
+<name>mahi</name>
+<collage>gitam</collage>
+<branch>cse</branch>
+<yo>2010</yo>
+<email>mahi.uk@gmail.com</email>
+</students>
+<students>
+<usn>IRN10cs091</usn>
+<name>kiran</name>
+<collage>vit</collage>
+<branch>ece</branch>
+<yo>2013</yo>
+<email>kiran@gmail.com</email>
+</students>
+<students>
+<usn>IRN10cs092</usn>
+<name>sai</name>
+<collage>srm</collage>
+<branch>eee</branch>
+<yo>2014</yo>
+<email>saiy@gmail.com</email>
+</students>
+</Gitam>
